@@ -18,6 +18,7 @@ My partner and I unpacked WTWY's request and determined that we were looking for
 * very busy subway stations
 * wealthy populations
 * regions with an interest in tech
+
 We determined that our ideal audience consisted of wealthy, tech-focused individuals, who use high-traffic subway stations.
 
 ### Obtaining and Cleaning the data
