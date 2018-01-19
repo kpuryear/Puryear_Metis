@@ -1,4 +1,4 @@
-# Puryear_Metis
+
 
 # Metis Data Science Bootcamp
 ## Kaitlin Puryear
