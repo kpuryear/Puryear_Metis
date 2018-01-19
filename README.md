@@ -1,4 +1,4 @@
-# Metis Data Science Bootcamp
+# Puryear_Metis
 ## Kaitlin Puryear
 ## Seattle Cohort, Winter 2018
 
