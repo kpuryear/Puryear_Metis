@@ -21,8 +21,20 @@ My partner and I unpacked WTWY's request and determined that we were looking for
 
 We determined that our ideal audience consisted of wealthy, tech-focused individuals, who use high-traffic subway stations.
 
+To utilize those distinct factors, we approached the data from 3 different angles:
+
+1. Obtain MTA turnstile data:
+
+* Obtain busiest subway stations
+
+2. Obtain US census data to obtain income values:
+* Clean census data and obtain boroughs/sub-boroughs that have high average incomes
+
+3. Obtain location data for Startups in NYC:
+* Correlate location of NYC startups with busiest subway stations and wealthiest sub-borough
+
 ### Obtaining and Cleaning the data
-words words words
+
 
 ### Results: Graphs and Tables
 words and tables
