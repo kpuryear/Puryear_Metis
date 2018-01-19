@@ -9,8 +9,8 @@ As a Metis Student, I will be analyzing data for multile different projects over
 
 ## Project Benson 
 ### Problem to be Solved:
-words words words,
-wow dude
+Our metaphorical Data Science Company was approached by a group called Women Tech Women Yes (WTWY). Their group is relativey new in New York, and will be hosting their annual gala event during the summer. They are interested in using street teams to hand out fliers in popular NYC subway stations. <\n>
+Our task is to recommend a plan for their street team that will yield the highest attendence and largest donations during the Summer Gala.
 
 ### Decoding the Problem and Planning Our Approach
 words words words
