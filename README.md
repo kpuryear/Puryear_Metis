@@ -7,7 +7,7 @@ As a Metis Student, I will be analyzing data for multile different projects over
 
 -------------------
 
-## Project: Benson 
+## Project Benson 
 ### Problem to be Solved:
 words words words,
 wow dude
