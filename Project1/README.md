@@ -29,7 +29,7 @@ We found the mta data available for free online. The data was broken down into s
 
 The raw data comes in looking like this:
 
-![SUBWAYS](Project1/images/RawMTA.png)
+![SUBWAYS](http://github.com/kpuryear/Puryear_Metis/Project1/images/RawMTA.png)
   
 Our objective was to determine which NYC subway stations were the busiest during this time of year. To do this, we looked at the column called "ENTRIES". Our overall plan was to isolate the top 6 busiest subway stations, then delve deeper into each station individually.
 
