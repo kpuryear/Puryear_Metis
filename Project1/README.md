@@ -6,9 +6,9 @@ Our task is to recommend a plan for their street team that will yield the highes
 
 ### Decoding the Problem and Planning Our Approach
 My partner and I unpacked WTWY's request and determined that we were looking for locations that optimize 3 distinct factors:
-* very busy subway stations
-* wealthy populations
-* regions with an interest in tech
+* Very busy subway stations
+* Wealthy populations
+* Regions with an interest in tech
 
 To utilize those distinct factors, we approached the data from 3 different angles:
 
