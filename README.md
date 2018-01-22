@@ -6,7 +6,7 @@
 As a Metis Student, I will be analyzing data for multile different projects over the course of the 12 week bootcamp.
 things are cool
 
-[A link to my first project](https://github.com/kpuryear/Puryear_Metis/Project_1)
+[A link to my first project](https://github.com/kpuryear/Puryear_Metis/Project1)
 
 -------------------
 
