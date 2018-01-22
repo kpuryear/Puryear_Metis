@@ -5,6 +5,8 @@
 ## Seattle Cohort, Winter 2018
 As a Metis Student, I will be analyzing data for multile different projects over the course of the 12 week bootcamp.
 
+[A link to my first project](https://kpuryear.github.io/Project1)
+
 -------------------
 
 ## Project Benson 
