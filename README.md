@@ -19,8 +19,6 @@ My partner and I unpacked WTWY's request and determined that we were looking for
 * wealthy populations
 * regions with an interest in tech
 
-We determined that our ideal audience consisted of wealthy, tech-focused individuals, who use high-traffic subway stations.
-
 To utilize those distinct factors, we approached the data from 3 different angles:
 
 1. Obtain MTA turnstile data:
@@ -36,14 +34,15 @@ To utilize those distinct factors, we approached the data from 3 different angle
 
 
 ### MTA Data
-We found the mta data available for free online. The data was broken down into separate documents for each week. We chose to use data for 4 weeks, from April 15, 2017 to May 12, 2017. We are assuming that the gala takes place in mid/late June, so we chose the data for the month when street teams could be most effective. 
+We found the mta data available for free online. The data was broken down into separate documents for each week. We chose to use data for 4 weeks, from April 15, 2017 to May 12, 2017. 
+
 The raw data comes in looking like this:
 
 INSERT PICTURE!
   
-Our objective was to determine which NYC subway stations were the busiest during this time of year. To do this, we looked at the column called "ENTRIES", because that signifies how many people came into that particular station. Our overall plan was to isolate the top 6 busiest subway stations, then delve deeper into each station individually.
+Our objective was to determine which NYC subway stations were the busiest during this time of year. To do this, we looked at the column called "ENTRIES". Our overall plan was to isolate the top 6 busiest subway stations, then delve deeper into each station individually.
 
-We used a pandas dataframe technique to narrow down the columns in our dataset until we were left with sorted, nicely parsed data that was easy to graph. Cleaning the "ENTRIES" data was a serious undertaking, since the numbers provided under the "ENTRIES" column never get reset, and are unique to each turnstile. The count start at 0 when any given turnstile goes online, and the counts keep increasing for the rest of its life, or until it gets reset for maintenence. Further clouding this data, there are many turnstiles for each station, each with their own arbitrary starting count. To handle these discrepancies, we devised a series of pandas "grouby" formulas.  
+Cleaning the "ENTRIES" data was a serious undertaking, since the numbers provided under the "ENTRIES" column never get reset, and are unique to each turnstile. The count starts at 0 when any given turnstile goes online, and the counts keep increasing for the rest of the turnstile's life, or until it gets reset for maintenence. Further clouding this data, there are many turnstiles for each station, each with their own arbitrary starting count. To handle these discrepancies, we devised a series of pandas "grouby" formulas.  
 
 INSERT CODE HERE
 
@@ -53,18 +52,18 @@ Once the "ENTRIES" data was more manageable, we were able to graph our data and 
 We found 2014 US census data available online for free through the American Housing and Vacancy Survey. This census data included a 172 digit number for each response. Luckily, the data included a key for how to extract desired information. Using this data, we created a pandas dataframe that included income and place of residence. We plotted the mean and median incomes for each sub-borough. 
 
 ### Startup Data
-We found a graphic from Digital NYC that showed density of startup companies in NYC. 
+We found a graphic from Digital NYC that showed density of startup companies in NYC. Conveniently, the vast majority of startups are located near busy subway stops in mid/lower Manhattan. 
 
 ### Results: Graphs and Tables
-After analyzing the MTA data, Census Data and Startup images, it became very clear that we should focus on mid/lower Manhattan. 
+After analyzing the MTA data, Census Data and Startup images, it became very clear that mid/lower Manhattan was the location to yeild high subway traffic, wealthy populations, and a large tech intrest.
 
 INSERT ALL 3 CORRELATION IMAGES
 
 ### Conclusion and Recommendation to Client
 We recommend deploying a street team of 27 people in total on weekdays only, to the 6 busiest subway stations in NYC:
-* 14th st-Union sq    
-* 47-50 sts Rock.
-* 59 st Columbus.
-* Chambers st.
-* WTC
-* Times sq-42 st.
+* 5 people to 14th St, Union Sq    
+* 4 people to 47th-50th St Rockefeller Center
+* 4 people to 59 St Columbus
+* 4 people to Chambers St
+* 5 people to World Trade Center Station
+* 5 people to Times Sq, 42 St
