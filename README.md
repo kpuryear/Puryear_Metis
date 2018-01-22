@@ -1,5 +1,5 @@
 # Metis Data Science Bootcamp
-*Kaitlin Puryear*
+**Kaitlin Puryear**
 
 As a Metis Student, I will be analyzing data for multile different projects over the course of the 12 week bootcamp.
 
