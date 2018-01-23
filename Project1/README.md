@@ -35,7 +35,7 @@ Our objective was to determine which NYC subway stations were the busiest during
 
 Cleaning the "ENTRIES" data was a serious undertaking, since the numbers provided under the "ENTRIES" column never get reset, and are unique to each turnstile. The count starts at 0 when any given turnstile goes online, and the counts keep increasing for the rest of the turnstile's life, or until it gets reset for maintenence. Further clouding this data, there are many turnstiles for each station, each with their own arbitrary starting count. To handle these discrepancies, we devised a series of pandas "grouby" formulas.  
 
-INSERT CODE HERE
+![](images/PandasCode.png)
 
 Once the "ENTRIES" data was more manageable, we were able to graph our data and gather meaningful results.
 
