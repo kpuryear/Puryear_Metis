@@ -48,7 +48,9 @@ We found a graphic from Digital NYC that showed density of startup companies in 
 ### Results: Graphs and Tables
 After analyzing the MTA data, Census Data and Startup images, it became very clear that mid/lower Manhattan was the location to yeild high subway traffic, wealthy populations, and a large tech intrest.
 
-INSERT ALL 3 CORRELATION IMAGES
+![](images/boroughs.png)
+![](images/subways.png)
+![](images/startups.png)
 
 ### Conclusion and Recommendation to Client
 We recommend deploying a street team of 27 people in total on weekdays only, to the 6 busiest subway stations in NYC:
