@@ -1,12 +1,12 @@
-# Metis Data Science Bootcamp
-**Kaitlin Puryear**
+# Project Luther
+## Plotting a Linear Regression to Predict Global Album Sales for Musicians
 
-As a Metis Student, I will be analyzing data for multile different projects over the course of the 12 week bootcamp.
+### Overview and Plan
 
-________________________
+### Data Scraping 
 
-[Project 1: Project Benson.](https://kpuryear.github.io/Puryear_Metis/Project1) In which I analyze NYC subway/MTA data to determine peak travel times and locations.
+### Formatting the Data into Usable DataFrames
 
-[Project 2: Project Luther.](https://kpuryear.github.io/Puryear_Metis/Project2) In which I...
+### Fitting the Linear Regression
 
-## Seattle Cohort, Winter 2018
+### Contextualized Results
