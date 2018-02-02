@@ -7,6 +7,6 @@ ________________________
 
 [Project 1: Project Benson.](https://kpuryear.github.io/Puryear_Metis/Project1) In which I analyze NYC subway/MTA data to determine peak travel times and locations.
 
-[Project 2: Project Luther.](https://kpuryear.github.io/Puryear_Metis/Project2) In which I...
+[Project 2: Project Luther.](https://kpuryear.github.io/Puryear_Metis/Project2) In which I predict the Global Sales of Music Groups based on 4 key features.
 
 ## Seattle Cohort, Winter 2018
