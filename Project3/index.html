@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Doctor's Visit Cancellations</title>
+  <style>
+  body{
+    font-family: sans-serif;
+  }
+  .button {
+    background-color: rgb(144, 196, 226);
+    border: none;
+    color: Black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .animal-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 10px 10px 0px #eee;
+    width: 300px;
+    margin: auto;
+  }
+  </style>
+
+</head>
+
+<body align="center">
+
+  <h3>Patient Cancellation Predictor:</h3>
+  <h3>Enter patient information.</h3>
+
+  <form action="/predict_recipe/" method="post">
+
+    <div class="animal-card" align="center">     <---------- help
+
+      Patient Age:
+      <br>
+        <input type="int" name="age">
+      <br>
+      
+      Scholarship:
+      <br>
+        <input type="boolean" name="insurance">
+      <br>
+
+      Text Sent:
+      <br>
+        <input type="boolean" name="text">
+      <br>
+      
+      Woman:
+      <br>
+      	<input type="boolean" name="gender">
+      <br>
+
+      Number of days Patient scheduled in advance:
+      <br>
+        <input type="int" name="delta">
+      <br>
+
+      Coming in for: Hypertension?:
+      <br>
+        <input type="boolean" name="hypertension">
+      <br>
+      
+      Coming in for: Diabetes?:
+      <br>
+        <input type="boolean" name="diabetes">
+      <br>
+      
+      Coming in for: Alcoholism?:
+      <br>
+        <input type="boolean" name="alcoholism">
+      <br>
+
+      Coming in for: Disability?:
+      <br>
+        <input type="boolean" name="disability">
+      <br>
+
+      Coming in for more than one condition?:
+      <br>
+        <input type="boolean" name="2+">
+      <br>
+
+    </div>
+
+  <br>
+
+  <button type="submit" class="button">
+    Will my patient show up?
+  </button>
+  </form>
+
+  <br>
+
+  
+
+  {% if message %}
+  <p class="button">{{message}}</p>
+  {% endif %}
+
+</body>
+</html>
