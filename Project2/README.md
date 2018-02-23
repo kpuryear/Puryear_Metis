@@ -1,12 +1,22 @@
-# Project Luther
-## Plotting a Linear Regression to Predict Global Album Sales for Musicians
+## Files in Project2
 
-### Overview and Plan
+### Luther_Compiled.ipynb
+Compiled Jupyter Notebook with all my analysis.
 
-### Data Scraping 
+### MVP Luther.pptx
+Preliminary presentation of my intitial findings.
 
-### Formatting the Data into Usable DataFrames
+### Project2PPT.pptx
+Final 7 minute presentation of my data and analysis. Presented for my classmates and instructors.
 
-### Fitting the Linear Regression
+### BackgroundWork (folder contains)
+- P2. web scraping.ipynb
+- Project2_Powerpoint.pptx
+- Regression testing.ipynb
+- SuperTechnical.pptx
+- Things_to_improve_presentation.ipynb
+- fixed_band_data.pkl
+- raw_band_data.pkl
+- string tests.ipynb
+- web scraping.ipynb
 
-### Contextualized Results
