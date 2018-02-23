@@ -1,4 +1,4 @@
-## Files in this Project1
+## Files in Project1
 
 ### benson_project-final.ipynb
 The full Jupyter notebook containing all the analysis my partner and I did.
