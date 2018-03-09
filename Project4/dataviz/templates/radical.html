@@ -11,20 +11,26 @@
      h2 {
        font-size: 1.2em;
        margin: 60px 0 5px 0;
-       color: rgb(225, 10, 233)
+       color: rgb(255, 123, 0)
+     }
+     h3 {
+       margin: 60px 0 5px 0;
+       color: rgb(2, 2, 2)
      }
     .button {
-      background-color: rgb(225, 10, 233);
+      background-color: rgb(46, 135, 236);
       border: none;
-      color: rgb(252, 250, 250);
+      color: rgb(255, 255, 255);
       padding: 15px 32px;
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 20px;
-      margin: 60px 0 5px 0;
+      font-size: 24px;
+      margin: 60px 2px;
+      margin-left: 550px;
       cursor: pointer;
-    }
+}
+
      .space {
        margin-bottom: 20 px;
      }
@@ -49,57 +55,48 @@
   <body>
 
 
-    <div id="chart_area" class="wrapper">
-      <h2>Let me find a good joke for you.
+    <div id="chart_area" class="wrapper" method="post">
+      <h2>Let me find a good joke for you...
+        <br>
+      How about this one?
       <br>
-      <br>How about this one? </h2>
-      <p class="space"></p>
-      <div id="bar_chart">
+      <br>
+      Please rate this joke on a scale from -10 to 10</h2>
+      <p class="space"></p></div>
 
+    <form id = "chart_area" action="/tell_me_a_joke/" method="post">
+
+        <div class="wrapper">
+          <h3>-10 = hate it
+            <br>
+          0 = neutral
+            <br>
+          10 = love it</h3>
       </div>
-    </div>
+      <br>
+      <br>
 
-        <div class="animal-card" align="right">
-            A joke gets told here.
-            <br>
-            <br>
-            <br>
-            <br>
-
-    <form action="/tell_me_a_joke/" method="post">
-
-        <div class="animal-card" align="center">
-    
-          Please rate this joke on a scale from -10 to 10. 
-          <br> </br>
-          <div>-10 = hate it with a burning passion
-          <div>0 = neutral
-          <div>10 = best joke ever
-          <br>
+      <br>
+          <div class="wrapper" align="center" method="post">
+            <text> {{joketoscreen}} </text> 
+      <br>
+      <br>
             <input type="float" name="rating">
-          <br>
-          
-    
-        </div>
-        <button type="submit" class="button">
-                Pick another joke for me
-              </button>
-              </form>
-            
-    </div>
-    
-<div>
-  <script>
-</div>
+          <br></div>
 
-var showchance = {{probability}};
+      <button type="submit" class="button">
+        Pick another joke for me</button>
+    </form> 
 
-renderBar("#chart_area", showchance);
-         error: function (result) {
-         }
-       })
-     }
-     
+  </div>
+
+    <div>
+  
+      <script src="http://d3js.org/d3.v3.min.js"></script>
+      <script>
+        var joketoscreen = {{joketoscreen}};
+
     </script>
+    </div>
   </body>
 </html>
