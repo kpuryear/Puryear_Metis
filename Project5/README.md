@@ -13,3 +13,7 @@ This project folder contains:
 - Modeling with Sklearn, Keras and Tensorflow
 - Feature Engineering to create more descriptive features
 - Models include: Artificial Neural Nets with Keras and Tensorflow, and Random Forest, Decision Trees, Logistic Regression in Sklearn.
+
+### KPuryearExoplanets.pptx
+- My PowerPoint presentation of my findings
+- Presented at Metis' Winter Career Day, April 5 2018
